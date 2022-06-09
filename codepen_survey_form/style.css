@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      110deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2563&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 880px;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding-top: 40px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+#survey-form {
+  background-color: rgba(43, 41, 70, 80%);
+  border-radius: 7px;
+  padding: 50px;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 3px;
+  padding-bottom: 3px;
+}
+
+label p {
+  margin-bottom: 8px;
+}
+
+.lower {
+  font-size: 16px;
+}
+
+.form-control {
+  width: 100%;
+  /*   height: 30px; */
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 8px;
+}
+
+input[type="number" i] {
+  padding: 0;
+}
+
+input.form-control {
+  border-width: 0;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5 {
+  font-size: 20px;
+}
+
+.clue {
+  font-size: 16px;
+}
+#dropdown,
+#favf,
+#comments {
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 10px;
+  color: lightslategray;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.boxer,
+.raddy {
+  margin-bottom: 4px;
+}
+
+.radiobtn {
+  display: inline-block;
+  margin-right: 5px;
+  min-height: 5px;
+  min-width: 5px;
+}
+
+.input-checkbox {
+  display: inline-block;
+  margin-right: 5px;
+  min-height: 5px;
+  min-width: 5px;
+}
+
+#comments {
+  font-size: 18px;
+  height: 150px;
+  resize: none;
+}
+
+.submit-btn {
+  display: block;
+  background-color: #37af65;
+  border-radius: 4px;
+  height: 50px;
+  width: 100%;
+  color: white;
+  font-size: 17px;
+  font-weight: 550;
+  cursor: pointer;
+}
